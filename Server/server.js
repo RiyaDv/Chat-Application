@@ -32,7 +32,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // MongoDB Connection
 mongoose.connect(
-  "mongodb+srv://riyadv2688:RdT8D9Rr0j7jOWSc@mongo.e1q3av1.mongodb.net/chat-app",
+  "YOUR_MONGODB_CONNECTION_URL",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
